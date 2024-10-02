@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+		<style>
+            
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .services, .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+
+        .service, .product {
+            width: 30%;
+            margin: 1em;
+            background-color: #fff;
+            padding: 1em;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+			color: white;
+        }
+
+        .service img, .product img {
+			
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            filter: blur(1px);
+			filter: brightness(70%);
+            transform: scale(1.1);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .service-content, .product-content {
+            position: relative;
+            z-index: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 3px;
+        }
+		.service{
+			position: relative;
+			z-index: 0;
+		}
+		.service-content h3{
+			font-size: 2rem;
+		}
+</style>
+		</head>
+<body>
+    
+		<div class="nav-links">
+			<div class="nav-links">
+				<ul>
+                    <img src="images\LOGO.png" alt="">
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="mentoring.html">Mentoring </a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+	
+			</div>
+
+	    <section>
+            <center><h2>Our Services</h2></center>
+        <div class="services">
+            <div class="service">
+                <img src="images\Bgmain.jpg" alt="Service 1 Image">
+                <div class="service-content">
+                    <h3>E-Books and Parenting Guides:</h3>
+                    <p>
+                        Explore our collection of e-books and parenting guides covering key aspects of child-rearing. Topics range from baby-proofing your home to creating stimulating environments for development, introducing sleep schedules, and managing childhood illnesses. Easily accessible, these resources provide reliable information for parents seeking valuable insights.</p>
+                        <form class="form_code"> 
+
+				
+                            <a href="contact.html">
+                            <button type="button">Begin Your Journey</button>
+                              </a> 
+                        </form>
+                    </div>
+            </div>
+            <div class="service">
+                <img src="images\Bgmain.jpg" alt="Service 2 Image">
+                <div class="service-content">
+                    <h3>Group Mentoring</h3>
+                    <p>Offer personalized virtual parenting consultations for individualized guidance on baby development, sleep routines, feeding schedules, and postpartum challenges. Tailor advice to each family's unique circumstances, fostering a supportive and customized approach.</p>
+                    <form class="form_code"> 
+
+				
+                        <a href="contact.html">
+                        <button type="button">Begin Your Journey</button>
+                          </a> 
+                    </form>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images\Bgmain.jpg" alt="Service 2 Image">
+                <div class="service-content">
+                    <h3>Virtual Breastfeeding Support Services</h3>
+                    <p>
+                        Offer online lactation consulting for breastfeeding support. Provide personalized consultations addressing challenges, offering tips for success, and sharing proper latching techniques. Include follow-up support for ongoing assistance.</p>
+                        <form class="form_code"> 
+
+				
+                            <a href="contact.html">
+                            <button type="button">Begin Your Journey</button>
+                              </a> 
+                        </form>
+                    </div>
+        </div>
+    </section>
+
+    <section>
+        <center><h2>Our Products</h2>
+       <h1 style="font-size: 400%;">Comming soon!!</h1></center>
+        <br><br><br><br>
+    </section>
+
+    <footer>
+        &copy; 2023 ToddlerCare. All rights reserved.
+    </footer>
+
+
+</body>
+</html>

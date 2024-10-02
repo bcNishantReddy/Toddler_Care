@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .video {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+		*{
+			margin: 0;
+  			padding: 0;
+  			box-sizing: border-box;
+  			font-family: 'Poppins', sans-serif;
+		}
+		a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-links ul{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  justify-content:center;
+}
+.nav-links li{
+  list-style: none;
+  margin: 0 12px;
+}
+.nav-links li a{
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+.nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #34efdf;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.nav-links li a:hover:before{
+  width: 100%;
+}
+.nav-links li.center a:before{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-links li.upward a:before{
+  width: 100%;
+  bottom: -5px;
+  opacity: 0;
+}
+.nav-links li.upward a:hover:before{
+  bottom: 0px;
+  opacity: 1;
+}
+.nav-links li.forward a:before{
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.nav-links li.forward a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+iframe{
+	padding: 10px;
+	
+}
+img{
+	height: 90px;
+	width: 140px;
+}
+footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;}
+		
+    </style>
+</head>
+<body>
+	<div class="nav-links">
+        <div class="nav-links">
+			<ul>
+        <img src="images\LOGO.png" alt="">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="mentoring.html">Mentoring </a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+		</div>
+    <header>
+        <h1 style="text-align: center;padding: 50px;;">Video Library</h1>
+    </header>
+    <a name="location1">
+	<h2 style="text-align: left;padding-left: 15px;">Feeding Tips Videos</h2>
+  
+    <div class="video-container">
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/LAfn4s8Jcps?si=gQFXNxqh17lT2EWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/XhcGne88oAI?si=5Hp7C6CTLz2-IBmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/jieuPYf96Nc?si=GJkIq2kiynPUqW7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		    <iframe width="340" height="200" src="https://www.youtube.com/embed/u7Ufl1XR1Qg?si=ktx8yRBLET4X6Odr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/-CWJYxIvoFQ?si=EPr2xzbhoxAW4wnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/0oqs4ZLpumk?si=IVQUdmy_fPN6pUzf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </a>
+    <br><br><br><br><br><br><br>
+    <a name="location2">
+    <h2 style="text-align: left;padding-left: 15px;">Daily Care Points to Remember</h2>
+    <div class="video-container">
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/2vqhTU16Dr4?si=fN3AB68z_6PsRyMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/vYvPepGJLUA?si=eGuoH2_oaK4IGGzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/wVRLDJcVKxk?si=oPbmLHoXd76VJ9Oz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/WQuX_Yw3yIg?si=Nbf3r7e9KU_Q1G3N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/CXWzqbe1i9c?si=5pwCK61PNQUEnhA1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="340" height="200" src="https://www.youtube.com/embed/GNqy0J54gm0?si=RQo7P18veCgS_Utd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </a>
+    <br><br><br><br><br><br><br>
+    <a name="location2">
+    <h2 style="text-align: left;padding-left: 15px;">Feeding Tips Videos</h2>
+    <div class="video-container">
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/LAfn4s8Jcps?si=gQFXNxqh17lT2EWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/XhcGne88oAI?si=5Hp7C6CTLz2-IBmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/jieuPYf96Nc?si=GJkIq2kiynPUqW7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		    <iframe width="340" height="200" src="https://www.youtube.com/embed/u7Ufl1XR1Qg?si=ktx8yRBLET4X6Odr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/-CWJYxIvoFQ?si=EPr2xzbhoxAW4wnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="340" height="200" src="https://www.youtube.com/embed/0oqs4ZLpumk?si=IVQUdmy_fPN6pUzf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </a>
+    <footer>
+      &copy; 2023 ToddlerCare. All rights reserved.
+  </footer>
+</body>
+</html>
